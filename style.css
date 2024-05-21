@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+}
+.title-bar {
+  height: 5vh;
+  background: #00AC47;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.menu-bar {
+  height: 5vh;
+}
+.menu-icon-bar {
+  height: 6vh;
+}
+.formula-bar {
+  height: 5vh;
+}
+.data-container {
+  height: 75vh;
+}
+.sheet-bar {
+  height: 4vh;
+}
