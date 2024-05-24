@@ -67,6 +67,8 @@ body {
 }
 .sheet-bar {
   height: 4vh;
+  display: flex;
+  align-items: center;
 }
 
 .font-family-selector {
@@ -78,6 +80,40 @@ body {
   font-size: 16px;
 }
 .font-family-selector > option {
-  font-size: 16px;
-   
+  font-size: 16px;  
+}
+.scroller{
+  width: 70px;
+}
+.scroller > div{
+  font-size: 30px;
+}
+.scroller > div:hover{
+  background: lightgray;
+  cursor: pointer;
+}
+.icon-add{
+  color: #107c41;
+  width: 40px;
+}
+.icon-add:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.sheet-tab-container{
+  border: 1px solid lightgray;
+  width: calc(100vw - 110px);
+}
+.sheet-tab{
+  border-bottom: 4px solid #107c41;
+  padding: 0px 10px;
+  display: flex;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-right: 1px solid lightgray;
+}
+.sheet-tab:hover{
+  cursor: default;
 }
