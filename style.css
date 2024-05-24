@@ -18,9 +18,47 @@ body{
 }
 .menu-bar {
   height: 5vh;
+  background: #107c41;
+  display: flex;
+
+}
+.menu-bar > div{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.menu-bar > .selected{
+  background: #fff;
+  color: #107c41;
+}
+.menu-bar > .selected:hover{
+  background: #fff;
+  color: #107c41;
+}
+.menu-bar > div:hover{
+  cursor: pointer;
+  background: #0e5f32;
 }
 .menu-icon-bar {
   height: 6vh;
+  display: flex;
+  align-items: center;
+  background: rgb(238, 237, 237);
+}
+.menu-icon-bar > div{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.menu-icon-bar > div:hover{
+  cursor: pointer;
+  background: lightgray;
 }
 .formula-bar {
   height: 5vh;
